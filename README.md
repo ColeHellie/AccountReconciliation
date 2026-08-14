@@ -36,7 +36,7 @@ Automated Alteryx workflow plus SQL validation that recreates the daily reconcil
  During initial checks, I found that a subset of accounts did not display the security identifier, which required additional matching logic.
 
 **SQL validation and sampling strategy**  
-With only one month to deliver, we validated the workflow using a small, representative sample of accounts (2–3 accounts per team) to cover different account types and scenarios. We compared the Alteryx outputs to the typical morning reports produced by the prior system to confirm accuracy before rolling the solution out department‑wide.
+With only one month to deliver, we validated the workflow using a small, representative sample of accounts (2-3 accounts per team) to cover different account types and scenarios. We compared the Alteryx outputs to the typical morning reports produced by the prior system to confirm accuracy before rolling the solution out department‑wide.
 
 **Workflow design and automation**  
 The Alteryx workflow is modular: ingestion → cleaning → reconciliation → exception handling → export. It runs automatically at start of day, produces the standardized Excel reports which it then uses the following day.
@@ -47,8 +47,8 @@ Design prioritized zero additional morning steps for end users. Documentation an
 ---
 
 ## Recommendations for platform transition
-- Build a simple dashboard — show high value and aged items.
-- Update the training manual and schedule training sessions — document any changes and give quick refresh sessions for owners of suspense accounts.
-- Automatically catch more exceptions — add rules so the workflow adapts to unusual cases.
+- Build a simple dashboard - show high value and aged items.
+- Update the training manual and schedule training sessions - document any changes and give quick refresh sessions for owners of suspense accounts.
+- Automatically catch more exceptions - add rules so the workflow adapts to unusual cases.
 
 
