@@ -1,1 +1,5 @@
-
+title: Account Reconciliation Project
+logo: 
+THEME: jekyll-theme-minimal
+description: “Retired the prior Platform and implemented an automated Alteryx workflow to perform the key control function.”
+show_downloads: false
